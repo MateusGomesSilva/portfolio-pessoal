@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Primary Meta Tags -->
+  <title>Mateus Gomes — Desenvolvedor Web | Portfólio</title>
+  <meta name="title" content="Mateus Gomes — Desenvolvedor Web | Portfólio">
+  <meta name="description"
+    content="Portfólio de Mateus Gomes, Desenvolvedor Web. Transformando ideias em experiências digitais funcionais, modernas e bem construídas com estética editorial e tecnológica.">
+  <meta name="author" content="Mateus Gomes">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mateus Gomes — Desenvolvedor Web | Portfólio">
+  <meta property="og:description"
+    content="Transformando ideias em experiências digitais funcionais, modernas e bem construídas.">
+  <meta property="og:image" content="assets/images/hero-portrait.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Mateus Gomes — Desenvolvedor Web | Portfólio">
+  <meta property="twitter:description"
+    content="Transformando ideias em experiências digitais funcionais, modernas e bem construídas.">
+
+  <!-- Google Fonts: Averia Serif Libre & Schibsted Grotesk (Authentic Radian Font Pack) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+  <div class="site-wrapper">
+
+    <!-- ======================================================================
+         CABEÇALHO & NAVEGAÇÃO (Header)
+         ====================================================================== -->
+    <header id="header" class="site-header">
+      <div class="site-header__inner">
+        <!-- Site Brand / Logo -->
+        <a href="#inicio" class="site-brand" aria-label="Mateus Gomes — Início">
+          <span class="site-brand__name">Mateus Gomes</span>
+          <span class="site-brand__tag">Desenvolvedor Web</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="site-nav" aria-label="Navegação Principal">
+          <ul class="site-nav__list">
+            <li><a href="#inicio" class="site-nav__link active">Início</a></li>
+            <li><a href="#explorar" class="site-nav__link">Explorar</a></li>
+            <li><a href="#projetos" class="site-nav__link">Projetos</a></li>
+            <li><a href="#trajetoria" class="site-nav__link">Trajetória</a></li>
+            <li><a href="#sobre" class="site-nav__link">Sobre</a></li>
+          </ul>
+          <a href="https://wa.me/5511975014696?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20um%20projeto." class="btn btn--primary btn--sm site-nav__cta">Vamos conversar</a>
+        </nav>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false"
+          aria-controls="mobile-drawer">
+          <span class="menu-toggle__box">
+            <span class="menu-toggle__line"></span>
+            <span class="menu-toggle__line"></span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer Overlay -->
+    <div id="mobile-drawer" class="mobile-nav-drawer" aria-hidden="true">
+      <ul class="mobile-nav-drawer__list">
+        <li><a href="#inicio" class="mobile-nav-drawer__link">Início</a></li>
+        <li><a href="#explorar" class="mobile-nav-drawer__link">Explorar</a></li>
+        <li><a href="#projetos" class="mobile-nav-drawer__link">Projetos</a></li>
+        <li><a href="#trajetoria" class="mobile-nav-drawer__link">Trajetória</a></li>
+        <li><a href="#sobre" class="mobile-nav-drawer__link">Sobre mim</a></li>
+        <li><a href="#contato" class="mobile-nav-drawer__link">Contato</a></li>
+      </ul>
+
+      <div class="mobile-nav-drawer__footer">
+        <span class="mobile-nav-drawer__meta">Mateus Gomes • Desenvolvedor Web</span>
+        <a href="mailto:contato@mateusgomes.dev" class="btn btn--primary btn--sm" style="width: fit-content;">Enviar
+          Mensagem</a>
+      </div>
+    </div>
+
+    <main id="main-content">
+      <!-- ======================================================================
+           SEÇÃO 1 — HERO / APRESENTAÇÃO (Com Retrato Cinematográfico de Fundo)
+           ====================================================================== -->
+      <section id="inicio" class="hero-section">
+        <div class="site-container">
+          <div class="hero-grid">
+            <div class="hero-text-block">
+              <h1 class="hero-title">Desenvolvimento digital com <span class="text-accent">propósito.</span></h1>
+              <p class="hero-description">
+                Transformo ideias em experiências digitais. Desenvolvo sites modernos, intuitivos e estratégicos,
+                combinando estética, tecnologia e funcionalidade para criar soluções que se destacam.
+              </p>
+              <div class="hero-actions">
+                <a href="#projetos" class="btn btn--primary">Explorar Projetos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================================
+           SEÇÃO 2 & 3 — PROJETOS EM DESTAQUE
+           ====================================================================== -->
+      <section id="explorar" class="page-section theme--light">
+        <div class="site-container">
+          <div class="section-header section-header--with-meta">
+            <div>
+              <span class="badge">Soluções Digitais</span>
+              <h2 class="section-title">Ideias que ganham forma.</h2>
+              <p>Do primeiro site ao desenvolvimento de plataformas completas, crio
+                soluções digitais que unem design, tecnologia e propósito.</p>
+            </div>
+          </div>
+
+          <!-- 3-Column Grid Matching Radian User Items List -->
+          <div class="projects-grid">
+            <!-- Projeto 1: Portfólio e Sites Institucionais -->
+            <article class="project-card">
+              <div class="project-card__image-wrapper">
+                <img src="assets/images/Vice-banner.png" alt="Site institucional do vice-prefeito"
+                  class="project-card__image" loading="lazy">
+              </div>
+              <div class="project-card__content">
+                <h3 class="project-card__title">Sites & Landing Pages</h3>
+                <p class="project-card__desc">
+                  Portfólios e landing pages com design estratégico, navegação intuitiva e
+                  foco em conversão.
+                </p>
+                
+                <div class="project-card__price">
+                  <span class="project-card__price-label">
+                    INVESTIMENTO INICIAL
+                  </span>
+                  <strong>A partir de R$ 999,90</strong>
+                  <span class="project-card__price-note">Valor conforme o projeto.</span>
+                </div>
+                <div class="project-card__footer">
+                  <a
+                    href="https://wa.me/5511975014696?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20uma%20landing%20page%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+                    class="btn--link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Solicitar orçamento <span>→</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 2: Landing Pages e Interfaces Digitais -->
+            <article class="project-card">
+              <div class="project-card__image-wrapper">
+                <img src="assets/images/GL-banner.png" alt="micro-SaaS e interfaces digitais"
+                  class="project-card__image" loading="lazy">
+              </div>
+              <div class="project-card__content">
+                <h3 class="project-card__title">Micro-SaaS</h3>
+                <p class="project-card__desc">
+                  Aplicações web que resolvem problemas específicos, automatizam tarefas e simplificam
+                  processos.
+                </p>
+                
+                <div class="project-card__price">
+                  <span class="project-card__price-label">
+                    DESENVOLVIMENTO PERSONALIZADO
+                  </span>
+                  <strong>Sob Orçamento</strong>
+                  <span class="project-card__price-note">
+                    Conforme as funcionalidades do sistema.
+                  </span>
+                </div>
+
+                <div class="project-card__footer">
+                  <a
+                    href="https://wa.me/5511975014696?text=Ol%C3%A1%21%20Vi%20seu%20portf%C3%B3lio%20e%20tenho%20uma%20ideia%20para%20um%20Micro-SaaS.%20Gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20de%20uma%20solu%C3%A7%C3%A3o%20personalizada%20e%20solicitar%20um%20or%C3%A7amento."
+                    class="btn--link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Tirar uma ideia do papel <span>→</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Projeto 3: Projetos Acadêmicos e Soluções Tecnológicas -->
+            <article class="project-card">
+              <div class="project-card__image-wrapper">
+                <img src="assets/images/breve-banner.png" alt="Em breve" class="project-card__image" loading="lazy">
+              </div>
+              <div class="project-card__content">
+                <h3 class="project-card__title">SaaS</h3>
+                <p class="project-card__desc">
+                  Plataformas web completas, com funcionalidades personalizadas, gestão de usuários e recursos
+                  integrados. Sistemas desenvolvidos para acompanhar o crescimento do negócio e entregar valor
+                  continuamente.
+                </p>
+                <div class="project-card__price">
+                  <span class="project-card__price-label">
+                    LANÇAMENTO FUTURO
+                  </span>
+                  <strong>Planos em breve</strong>
+                  <span class="project-card__price-note">
+                    Para o serviço que ainda está em desenvolvimento.
+                  </span>
+                </div>
+                <div class="project-card__footer">
+                  <button type="button" class="btn--link" data-open-project="academicos">
+                    Em breve <span>→</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================================
+           SEÇÃO 4, 5, 6 — EXPLORAR (Deep Showcases Alternados)
+           ====================================================================== -->
+      <section id="projetos" class="page-section theme--light-alt">
+        <div class="site-container">
+          <div class="section-header">
+            <span class="badge">Aprofundamento</span>
+            <h2 class="section-title">Projetos</h2>
+            <p class="section-subtitle">
+              Uma segunda perspectiva visual sobre metodologia, código e acabamento digital.
+            </p>
+          </div>
+
+          <div class="explore-section">
+            <!-- Showcase 1 -->
+            <article class="showcase-item">
+              <div class="showcase-item__media">
+                <img
+                  src="assets/images/Vice-banner.png" alt="Site institucional do vice-prefeito"
+                  class="project-card__image" loading="lazy">
+              </div>
+              <div class="showcase-item__content">
+                <span class="showcase-item__label">Visão 01 • Institucional</span>
+                <h3 class="showcase-item__title">Portfólio e Interface digital</h3>
+                <p class="showcase-item__desc">
+                  Desenvolvimento de sites institucionais que fortalecem a presença digital, transmitem credibilidade e valorizam a identidade de cada negócio. Projetos personalizados, com design moderno, navegação intuitiva e adaptação para todos os dispositivos, criando uma experiência profissional que aproxima marcas de seus clientes e transforma sua presença online em novas oportunidades.
+                </p>
+                <div class="showcase-item__tags">
+                  <span class="showcase-item__tag">Design Responsivo</span>
+                  <span class="showcase-item__tag">Identidade Visual</span>
+                  <span class="showcase-item__tag">SEO Otimizado</span>
+                  <span class="showcase-item__tag">Alta Performance</span>
+                </div>
+                <div>
+                  <a
+                      href="file:///C:/Users/mateu/OneDrive/Documentos/Projetos/Portif%C3%B3lio%20Walderrama/frontend/index.html#inicio"
+                      class="btn--link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ver site publicado <span>↗</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Showcase 2 (Invertido) -->
+            <article class="showcase-item">
+              <div class="showcase-item__content showcase-item__content--alt">
+                <span class="showcase-item__label">Visão 02 • Conversão & Interface</span>
+                <h3 class="showcase-item__title">GL Auto Car — Landing Page de Alta Conversão</h3>
+                <p class="showcase-item__desc">
+                  Desenvolvimento de uma landing page premium para uma loja de veículos, criada para transmitir confiança, destacar o estoque e incentivar o contato imediato pelo WhatsApp. O projeto combina design sofisticado, navegação intuitiva e uma experiência responsiva para transformar visitantes em potenciais compradores.
+                </p>
+                <div class="showcase-item__tags">
+                  <span class="showcase-item__tag">Design Premium</span>
+                  <span class="showcase-item__tag">Mobile-First</span>
+                  <span class="showcase-item__tag">WhatsApp Integrado</span>
+                  <span class="showcase-item__tag">Alta Conversão</span>
+                </div>
+                <div>
+                  <a
+                    href="https://gl-autor-car.vercel.app/index.html#"
+                    class="btn--link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver site publicado <span>↗</span>
+                  </a>
+                </div>
+              </div>
+              <div class="showcase-item__media showcase-item__media--alt">
+                <img
+                  src="assets/images/GL-banner.png" alt="micro-SaaS e interfaces digitais"
+                  class="project-card__image" loading="lazy">
+              </div>
+            </article>
+
+            <!-- Showcase 3 -->
+            <article class="showcase-item">
+              <div class="showcase-item__media">
+                <img
+                  src="https://images.squarespace-cdn.com/content/v1/6661cc8350300d6c8b3895a8/1717685381984-S7WOVIY3148WHICPH0U2/Radian-FloatHouse-1.jpg"
+                  alt="Showcase Projetos acadêmicos e soluções tecnológicas" class="showcase-item__image"
+                  loading="lazy">
+              </div>
+              <div class="showcase-item__content">
+                <span class="showcase-item__label">Visão 03 • Lógica & Sistemas</span>
+                <h3 class="showcase-item__title">Projetos acadêmicos e soluções tecnológicas</h3>
+                <p class="showcase-item__desc">
+                  Arquiteturas robustas, integração com APIs e ferramentas para resolução de problemas reais. Código
+                  modular, limpo e documentado, preparado para escalabilidade e colaboração com times técnicos.
+                </p>
+                <div class="showcase-item__tags">
+                  <span class="showcase-item__tag">JavaScript Moderno</span>
+                  <span class="showcase-item__tag">Integração REST</span>
+                  <span class="showcase-item__tag">Git & GitHub</span>
+                  <span class="showcase-item__tag">Clean Code</span>
+                </div>
+                <div>
+                  <button type="button" class="btn--link" data-open-project="academicos">
+                    Conhecer detalhes do projeto <span>→</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======================================================================
+    SEÇÃO 7 — EXPERIÊNCIA E TRAJETÓRIA (Chronological Columns)
+====================================================================== -->
+      <section id="trajetoria" class="page-section theme--light">
+        <div class="site-container">
+          <div class="section-header">
+            <span class="badge">Histórico & Evolução</span>
+            <h2 class="section-title">Trajetória</h2>
+            <p class="section-subtitle">
+              Formação acadêmica, conhecimentos técnicos e marcos profissionais cronológicos.
+            </p>
+          </div>
+
+          <div class="trajectory-grid">
+            <!-- Coluna 2024 -->
+            <div class="trajectory-column">
+              <div class="trajectory-year">2025 - 2026</div>
+              <ul class="trajectory-list">
+                <li class="trajectory-item">
+                  <span class="trajectory-item__title">Análise e Desenvolvimento de Sistemas (ADS)</span>
+                  <span class="trajectory-item__meta">Formação voltada ao desenvolvimento de software, lógica de programação e construção de soluções digitais.
+                  </span>
+                  <span class="trajectory-item__badge">FORMAÇÃO EM ANDAMENTO</span>
+                </li>
+                <li class="trajectory-item">
+                  <span class="trajectory-item__title">Desenvolvimento Web</span>
+                  <span class="trajectory-item__meta">Criação de sites institucionais e landing pages responsivas.</span>
+                  <span class="trajectory-item__badge">PROJETOS DESENVOLVIDOS</span>
+                </li>
+                <li class="trajectory-item">
+                  <span class="trajectory-item__title">Projetos Digitais</span>
+                  <span class="trajectory-item__meta">Construção de interfaces modernas, com foco em funcionalidade e experiência do usuário.</span>
+                  <span class="trajectory-item__badge">PRÁTICA EM DESENVOLVIMENTO</span>
+                </li>
+                <li class="trajectory-item">
+                  <span class="trajectory-item__title">FETEF e Feiras Tecnológicas</span>
+                  <span class="trajectory-item__meta">Apresentação de projetos e participação em eventos de tecnologia e inovação.</span>
+                  <span class="trajectory-item__badge">EXPERIÊNCIA EM APRESENTAÇÕES</span>
+                </li>
+                <li class="trajectory-item">
+                  <span class="trajectory-item__title">Evolução Contínua</span>
+                  <span class="trajectory-item__meta">Aprimoramento de conhecimentos técnicos e desenvolvimento de novas soluções web.</span>
+                  <span class="trajectory-item__badge">APRENDIZADO CONSTANTE</span>
+                </li>
+              </ul>
+      </section>
+      <!-- ======================================================================
+SEÇÃO 9 — SOBRE MIM (Theme: Black / Dark Section)
+====================================================================== -->
+      <section id="sobre" class="page-section about-section theme--black">
+        <div class="site-container">
+          <!-- Top: Bio & Secondary Editorial Photo -->
+          <div class="about-editorial-grid">
+            <div class="about-editorial-media">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/6661cc8350300d6c8b3895a8/1717685382014-82RG115LN6V6EEJTE7FM/Radian-secondary.jpg"
+                alt="Mateus Gomes — Desenvolvedor Web, atmosfera editorial de trabalho" class="about-editorial-image"
+                loading="lazy">
+            </div>
+
+            <div class="about-editorial-intro">
+              <span class="badge">Perfil Profissional</span>
+              <h2 class="about-editorial-title">Sobre mim</h2>
+              <p class="about-editorial-text">
+                Transformo ideias em experiências digitais, unindo tecnologia, design e propósito.
+              </p>
+              <p class="about-editorial-text">
+                Sou desenvolvedor web e estudante de Análise e Desenvolvimento de Sistemas (ADS), com experiência na criação de sites institucionais e landing pages, unindo design, funcionalidade e experiência do usuário.
+
+Participei de apresentações na FETEF e de feiras tecnológicas acadêmicas, ampliando meus conhecimentos em tecnologia e inovação. Busco aprimorar continuamente minhas habilidades para desenvolver soluções digitais eficientes, modernas e alinhadas aos objetivos de cada projeto.
+              </p>
+              <div>
+                <a href="https://wa.me/5511975014696?text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20um%20projeto." class="btn btn--accent">Conversar sobre projetos</a>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <!-- ======================================================================
+         SEÇÃO 10 — RODAPÉ (Footer)
+         ====================================================================== -->
+    <footer id="rodape" class="site-footer">
+      <div class="site-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <h2 class="footer-brand__title">Mateus Gomes</h2>
+            <p class="footer-brand__desc">
+              Transformando ideias em experiências digitais funcionais, modernas e bem construídas.
+            </p>
+          </div>
+
+          <div class="footer-nav">
+            <div class="footer-nav-col">
+              <span class="footer-nav-heading">Navegação</span>
+              <a href="#inicio" class="footer-nav-link">Início</a>
+              <a href="#projetos" class="footer-nav-link">Projetos</a>
+              <a href="#explorar" class="footer-nav-link">Explorar</a>
+              <a href="https://www.linkedin.com/in/mateus-gomes/" class="footer-nav-link" target="_blank" rel="noopener noreferrer">Linkedin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Mateus Gomes. Todos os direitos reservados. Site desenvolvido de forma independente.</p>
+          <a href="#header" id="back-to-top" class="back-to-top-btn" aria-label="Voltar ao início da página">
+            Voltar ao topo ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- ======================================================================
+       MODAL DE DETALHES DE PROJETO (Interativo)
+       ====================================================================== -->
+  <div id="project-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close" aria-label="Fechar detalhes do projeto">✕</button>
+      <img src="" alt="" class="modal-image">
+      <div class="modal-body">
+        <div class="modal-meta-row">
+          <span class="badge modal-category"></span>
+          <span class="modal-year badge badge--pill"></span>
+        </div>
+        <h3 id="modal-title" class="modal-title"></h3>
+        <p class="modal-description" style="font-size: 1.05rem; line-height: 1.6;"></p>
+        <p class="modal-context" style="color: var(--color-text-muted); line-height: 1.6;"></p>
+        <div class="modal-tag-list"></div>
+        <div class="modal-placeholder-notice">
+          <strong>Aviso de personalização:</strong>
+          <span class="modal-notice-text"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/* ==========================================================================
+   PORTFÓLIO MATEUS GOMES - DESIGN TOKENS
+   Identidade: Dark Mode Sofisticado & Tecnológico (Preto e Roxo)
+   ========================================================================== */
+
+:root {
+  /* --- Paleta de Cores: Preto e Roxo --- */
+  --color-canvas: #09090B;           /* Fundo principal: Preto profundo */
+  --color-canvas-alt: #111116;       /* Fundo secundário: Transição sutil entre seções */
+  --color-surface: #181820;          /* Superfícies e cards elevados */
+  --color-surface-hover: #22222D;    /* Superfície em hover */
+  
+  --color-accent: #8B5CF6;           /* Roxo principal: Destaque visual */
+  --color-accent-hover: #A78BFA;     /* Roxo claro: Hover e foco */
+  --color-accent-dark: #6D28D9;      /* Roxo escuro: Active / pressionado */
+  --color-accent-subtle: rgba(139, 92, 246, 0.12); /* Fundo sutil com transparência */
+  --color-accent-glow: rgba(139, 92, 246, 0.28);   /* Brilho suave */
+
+  /* --- Textos & Legibilidade --- */
+  --color-text-main: #F5F3FF;        /* Texto principal: Branco levemente aquecido */
+  --color-text-muted: #A1A1AA;       /* Texto secundário / descritivo: Cinza neutro */
+  --color-text-faint: #71717A;       /* Texto terciário / metadados */
+  --color-text-inverse: #09090B;     /* Texto para fundos claros se houver */
+  
+  /* --- Bordas & Divisores --- */
+  --color-border: #2A2635;           /* Bordas discretas com matiz roxo */
+  --color-border-subtle: #1C1A24;    /* Bordas ultra-sutis */
+  --color-border-hover: #4C4460;     /* Borda em hover */
+  --color-border-accent: #8B5CF6;    /* Borda ativa / foco */
+
+  /* --- Feedback --- */
+  --color-success-bg: #122818;
+  --color-success-text: #86EFAC;
+  --color-success-border: #225430;
+  
+  --color-error-bg: #2C1318;
+  --color-error-text: #FCA5A5;
+  --color-error-border: #63202A;
+
+  /* --- Tipografia --- */
+  --font-serif: 'Averia Serif Libre', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Schibsted Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* --- Dimensões de Layout & Responsividade Ampliada --- */
+  --site-max-width: 1480px;          /* Ocupa perfeitamente telas grandes e ultra-wide sem esticar demais */
+  --gutter-desktop: clamp(24px, 4vw, 64px);
+  --gutter-tablet: clamp(20px, 3.5vw, 40px);
+  --gutter-mobile: clamp(16px, 4vw, 24px);
+  
+  --header-height: 80px;
+  --header-height-mobile: 70px;
+  
+  --section-padding-y: clamp(56px, 5.5vw, 96px);
+  --section-padding-y-lg: clamp(72px, 7.5vw, 120px);
+  --section-padding-y-sm: clamp(36px, 3.5vw, 56px);
+  
+  /* --- Tipografia Fluida (Escala proporcional harmoniosa para todas as telas) --- */
+  --text-h1: clamp(2.1rem, 3.2vw + 0.4rem, 3.5rem);
+  --text-h2: clamp(1.75rem, 2.2vw + 0.35rem, 2.65rem);
+  --text-h3: clamp(1.25rem, 1.3vw + 0.3rem, 1.75rem);
+  --text-h4: clamp(1rem, 0.8vw + 0.2rem, 1.25rem);
+  --text-body-lg: clamp(1rem, 0.35vw + 0.85rem, 1.15rem);
+  --text-body: 1rem;
+  --text-body-sm: 0.88rem;
+  --text-meta: 0.78rem;
+
+  /* --- Transições & Raios --- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+  
+  --transition-fast: 0.2s cubic-bezier(0.2, 0, 0, 1);
+  --transition-normal: 0.35s cubic-bezier(0.2, 0, 0, 1);
+  --transition-slow: 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
